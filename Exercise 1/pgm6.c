@@ -6,12 +6,12 @@ int main() {
    float Pi = 3.14, area, ci;
  
    printf("\nEnter radius of circle: ");
-   scanf("d", &rad);
+   scanf("%d", &rad);
  
-   area = PI * rad * rad;
-   printf("\nArea of circle : f ", area);
+   area = Pi * rad * rad;
+   printf("\nArea of circle : %f ", area);
  
-   ci = 2 * PI * rad;
+   ci = 2 * Pi * rad;
    printf("\nCircumference : %f ", ci);
  
    return (0);

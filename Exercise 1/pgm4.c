@@ -1,5 +1,6 @@
+#include<stdio.h>
  
-int maini{}
+int main()
 {
    int n, first = 0, second = 1, next, c;
  
@@ -21,5 +22,5 @@ int maini{}
       printf("%d\n",next);
    }
  
-   return ;
+   return 0;
 }

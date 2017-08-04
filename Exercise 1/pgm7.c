@@ -1,7 +1,9 @@
 #include<stdio.h>
  
- 
-void main() {
+void printBinary(int num);
+
+int main()
+{
    int i, count = 0;
    unsigned int num;
  
@@ -20,7 +22,7 @@ void main() {
       }
    }
    printf("\nTrailing Zeros : %d", count);
-   getch();
+   return 0;
 }
 
 void printBinary(int num)
